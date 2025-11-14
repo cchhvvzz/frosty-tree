@@ -1,0 +1,84 @@
+/* Footer general */
+.footer {
+  background-color: #0e9a9a; /* Tu color de fondo */
+  color: white;
+  padding: 2rem 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Contenedor flexible */
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 2rem;
+}
+
+/* Columnas del footer */
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+/* Títulos de columnas */
+.footer-col h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* Enlaces */
+/* Fondo del footer */
+.footer {
+  background-color: #2b3131;
+  padding: 2rem 1rem;
+  text-align: center;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Texto superior (ej: RETROUVEZ NOUS AUSSI SUR:) */
+.footer-title {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+/* Contenedor centrado de iconos */
+.footer-social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+/* Caja de cada icono */
+.icon-box {
+  text-align: center;
+}
+
+/* Iconos redondos */
+.icon-box img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.3rem;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Hover */
+.icon-box img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+/* Texto debajo del icono */
+.icon-box p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+}
