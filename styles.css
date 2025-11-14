@@ -1,15 +1,14 @@
-/* Footer general */
+/* Fondo general del footer */
 .footer {
-  background-color: #0e9a9a; /* Tu color de fondo */
+  background-color: #1b1b1b; /* Negro suave */
   color: white;
-  padding: 2rem 1rem;
+  padding: 3rem 1rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* Contenedor flexible */
+/* Contenedor de 3 columnas */
 .footer-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1200px;
@@ -17,68 +16,67 @@
   gap: 2rem;
 }
 
-/* Columnas del footer */
 .footer-col {
   flex: 1;
-  min-width: 200px;
+  min-width: 220px;
 }
 
-/* Títulos de columnas */
-.footer-col h3 {
+.footer-logo {
+  width: 50px;
   margin-bottom: 1rem;
-  font-size: 1.2rem;
-  color: white;
 }
 
-/* Enlaces */
-/* Fondo del footer */
-.footer {
-  background-color: #2b3131;
-  padding: 2rem 1rem;
-  text-align: center;
-  color: white;
-  font-family: "Roboto", sans-serif;
-}
-
-/* Texto superior (ej: RETROUVEZ NOUS AUSSI SUR:) */
-.footer-title {
+.footer-name {
   font-size: 1.1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-copy {
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Lista de enlaces */
+.footer-list {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-list a {
   color: white;
-  letter-spacing: 1px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s;
 }
 
-/* Contenedor centrado de iconos */
-.footer-social-icons {
+.footer-list a:hover {
+  opacity: 1;
+}
+
+/* Redes sociales */
+.footer-social {
   display: flex;
-  justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
 }
 
-/* Caja de cada icono */
-.icon-box {
-  text-align: center;
-}
-
-/* Iconos redondos */
-.icon-box img {
-  width: 55px;
-  height: 55px;
-  object-fit: cover;
+.footer-social img {
+  width: 38px;
+  height: 38px;
   border-radius: 50%;
-  margin-bottom: 0.3rem;
   transition: transform 0.2s, opacity 0.2s;
 }
 
-/* Hover */
-.icon-box img:hover {
+.footer-social img:hover {
   transform: scale(1.1);
   opacity: 0.8;
-}
-
-/* Texto debajo del icono */
-.icon-box p {
-  margin-top: 0.3rem;
-  font-size: 0.9rem;
 }
