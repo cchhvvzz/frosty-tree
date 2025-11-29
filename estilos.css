@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: georgia;
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(56, 56, 56);
+}
+
+.header {
+  background-color: rgb(162, 98, 235);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+}
